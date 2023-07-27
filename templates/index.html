@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question Answering App</title>
+</head>
+<body>
+    <h1>Ask a Question (RAG)</h1>
+    <h3>Add 'PAN' or 'BERT5' in title to ask about PAN card and BERT details respectively</h3>
+    <form action="/answer" method="post">
+        <input type="text" name="question" placeholder="Enter your question" required>
+        <input type="text" name="api_key" placeholder="Enter your API key" required>
+        <input type="text" name="title" placeholder="Knowledge_document_title" required>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <h5>    By default repo has 2 knowledge docs titled-'PAN' or 'BERT5', see instructions to add a new Knowledge document. </h5>
+</body>
+</html>
