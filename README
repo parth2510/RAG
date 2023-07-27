@@ -6,6 +6,8 @@ installation:
 - run command "python app.py"
 go to http://127.0.0.1:5000/ in your browser to access the app
 
+# RAG logic is in AUG.py file
+
 
 
 misc-
