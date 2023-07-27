@@ -1,0 +1,15 @@
+installation:
+
+-clone/download repo (master branch)
+- install requirements.txt using command "pip install -r requirements.txt"
+- go to the main directory
+- run command "python app.py"
+go to http://127.0.0.1:5000/ in your browser to access the app
+
+
+
+misc-
+if you want to change knowledge document, add pdf to the same directory and then decomment last line in  AUG.py with new title.
+Will change it to be done via app ui someday, if any help needed, contact me, linkedin -https://www.linkedin.com/in/parth-gupta-171614184/
+
+
